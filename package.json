@@ -2,12 +2,12 @@
   "name": "jingchu-heritage-server",
   "version": "1.0.0",
   "description": "荆楚遗韵 - 湖北非物质文化遗产数字平台后端",
-  "main": "app.js",
+  "main": "server/app.js",
   "type": "module",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js",
-    "seed": "node data/seed.js",
+    "start": "node server/app.js",
+    "dev": "nodemon server/app.js",
+    "seed": "node server/data/seed.js",
     "vercel-build": "echo 后端构建完成"
   },
   "dependencies": {
